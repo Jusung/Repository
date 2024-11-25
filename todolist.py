@@ -16,6 +16,11 @@ def remove_task(index):
     else:
         print("Invalid index!")
 
+# 2. 모든 작업 초기화 (clear_tasks)
+def clear_tasks():
+    todo_list.clear()
+    print("All tasks cleared!")
+
 # 실행 예제
 add_task("Learn Python")
 add_task("Do Git practice")
