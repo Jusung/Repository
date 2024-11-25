@@ -16,6 +16,14 @@ def remove_task(index):
     else:
         print("Invalid index!")
 
+# 1. 완료된 작업 표시 (mark_done)
+def mark_done(index):
+    if 0 <= index < len(todo_list):
+        todo_list[index] += " ✅"
+        print(f"Task {index + 1} marked as done!")
+    else:
+        print("Invalid index!")        
+        
 # 실행 예제
 add_task("Learn Python")
 add_task("Do Git practice")
