@@ -16,6 +16,17 @@ def remove_task(index):
     else:
         print("Invalid index!")
 
+# 3. 작업 검색 (search_tasks)
+def search_tasks(keyword):
+    print(f"\nSearch results for '{keyword}':")
+    found = False
+    for idx, task in enumerate(todo_list, start=1):
+        if keyword.lower() in task.lower():
+            print(f"{idx}. {task}")
+            found = True
+    if not found:
+        print("No matching tasks found.")
+
 # 실행 예제
 add_task("Learn Python")
 add_task("Do Git practice")
