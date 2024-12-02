@@ -9,12 +9,6 @@ def show_tasks():
     for idx, task in enumerate(todo_list, start=1):
         print(f"{idx}. {task}")
 
-def remove_task(index):
-    if 0 <= index < len(todo_list):
-        removed = todo_list.pop(index)
-        print(f"'{removed}' removed from the list.")
-    else:
-        print("Invalid index!")
 
 # 실행 예제
 add_task("Learn Python")
