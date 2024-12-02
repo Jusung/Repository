@@ -20,5 +20,6 @@ def remove_task(index):
 add_task("Learn Python")
 add_task("Do Git practice")
 show_tasks()
+show_tasks()
 remove_task(0)
 show_tasks()
