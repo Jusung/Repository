@@ -24,6 +24,7 @@ def calculator():
     else:
         print("Invalid operation! hello ")
         print("Invalid operation! love")
+        print("Invalid operation! see God")
         return
 
     print(f"The result is: {result} u can't")
