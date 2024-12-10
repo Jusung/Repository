@@ -14,6 +14,7 @@ def calculator():
         result = num1 / num2
     else:
         print("Invalid operation! hello ")
+        print("Invalid operation! love")
         return
 
     print(f"The result is: {result}")
