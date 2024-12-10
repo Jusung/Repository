@@ -14,7 +14,7 @@ def guess_number():
             print("Too high!")
         else:
             print(f"Correct! It took you {attempts} attempts.")
-            print(f"Correct! It took you {attempts} attempts. cancel changes")
+            print(f"Correct! It took you {attempts} attempts. cancel changes2")
             break
 
 guess_number()
