@@ -15,6 +15,7 @@ def remove_task(index):
         print(f"'{removed}' removed from the list.")
     else:
         print("Invalid index!")
+        print("Invalid index! invalid.. worlds")
 
 # 실행 예제
 add_task("Learn Python")
