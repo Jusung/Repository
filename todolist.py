@@ -17,7 +17,7 @@ def remove_task(index):
         print("Invalid index!")
         print("Invalid index! invalid.. worlds")
 
-# 실행 예제1
+# 실행 예제1, 2
 add_task("Learn Python")
 add_task("Do Git practice")
 show_tasks()
