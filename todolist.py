@@ -20,6 +20,7 @@ def remove_task(index):
 # 실행 예제1, 2, 3, 4
 # once more
 # hello1
+# hello2
 add_task("Learn Python")
 add_task("Do Git practice")
 show_tasks()
