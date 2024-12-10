@@ -25,7 +25,7 @@ def calculator():
         print("Invalid operation!")
         return
 
-    print(f"The result is: {result}")
+    print(f"The result is: {result} u can't")
 
     
 calculator()
