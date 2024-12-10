@@ -22,7 +22,7 @@ def calculator():
     elif operation == '/':
         result = num1 / num2
     else:
-        print("Invalid operation!")
+        print("Invalid operation! hello ")
         return
 
     print(f"The result is: {result} u can't")
