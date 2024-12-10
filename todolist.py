@@ -21,6 +21,7 @@ def remove_task(index):
 # once more
 # hello1
 # hello2
+# hello3
 add_task("Learn Python")
 add_task("Do Git practice")
 show_tasks()
