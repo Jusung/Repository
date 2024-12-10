@@ -17,6 +17,7 @@ def guess_number():
             print(f"Correct! It took you {attempts} attempts. cancel changes2 helpful")
             print(f"Correct! It took you {attempts} attempts. guess number1")
             print(f"Correct! It took you {attempts} attempts. guess number1 number2")
+            print(f"Correct! It took you {attempts} attempts. guess number1 number2 number3")
             break
 
 guess_number()
